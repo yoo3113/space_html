@@ -1,0 +1,47 @@
+/* layout.css */
+
+* {
+  margin: 0; /*body 기본마진 제거*/
+  padding: 0; /*body 기본패딩 제거*/
+}
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box; /*width=컨텐츠+패딩+*/
+}
+
+h1 {
+  color: #0000ff;
+}
+
+header {
+  width: 1000px; /*테두리 4px제외*/
+  height: 100px;
+  /* border: 2px solid #ccc; */
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+section {
+  width: 660px;
+  height: 600px;
+  /* border: 2px solid #ccc; */
+  background-color: darkgoldenrod;
+  float: left;
+  box-sizing: border-box;
+}
+aside {
+  width: 340px;
+  height: 600px;
+  /* border: 2px solid #ccc; */
+  float: right;
+  background-color: rosybrown;
+  box-sizing: border-box;
+}
+footer {
+  width: 1000px;
+  height: 100px;
+  /* border: 2px solid #ccc; */
+  clear: both;
+  box-sizing: border-box;
+  background-color: wheat;
+}

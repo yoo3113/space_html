@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>display 속성 - 이미지 표시</title>
+    <style>
+      img {
+        /*display: block; block-수직배치, 기본은 inline*/
+        width: 300px;
+        height: 300px;
+        display: block;
+        padding: 10px;
+      }
+      .pic {
+        visibility: hidden;/*숨기기 빈공백*/
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/black_dog.jpg" alt="블랙~" />
+    <img src="images/twodog.jpg" alt="셰풔드~" class="pic" />
+    <img src="images/im_dog.jpg" alt="나도개~" />
+  </body>
+</html>
